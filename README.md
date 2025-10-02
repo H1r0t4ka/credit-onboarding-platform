@@ -104,7 +104,7 @@ El sistema de métricas de NoCountry será clave para:
 ---
 
 ## 📎 Recursos y enlaces
-- [Información adicional sobre la simulación de NoCountry](TU_LINK_AQUI)  
+- [Diseño en Figma](https://www.figma.com/design/VAEthqQolIekuPQCAQNPsm/NoCountry-WebApp?node-id=0-1&t=hnCu3Fpu1PKFsU7i-1)  
 
 ---
 
