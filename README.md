@@ -110,6 +110,17 @@ El sistema de métricas de NoCountry será clave para:
 
 ## 👥 Créditos
 Este proyecto es desarrollado por el equipo de la simulación laboral de **NoCountry**.  
-La experiencia busca fomentar la **autogestión, colaboración y aprendizaje práctico** en un entorno de desarrollo realista.  
+La experiencia busca fomentar la **autogestión, colaboración y aprendizaje práctico** en un entorno de desarrollo realista.
+
+Front-End
+- Cristhian Brayan Jiménez Chapa
+- Juan Manuel Quevedo Gonzalez
+- Eri Jhampier Valladolid Cruzado
+
+Back-End
+- Fernando Bouchet
+- Matias LLanos
+- Tomas Agustin Colazo
+- Kevin Ramos
 
 ---
