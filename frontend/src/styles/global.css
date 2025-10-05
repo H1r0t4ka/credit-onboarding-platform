@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+	html {
+		/* Use system font stack like Tailwind does by default */
+		font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+        background-color: #ffffff; /* white fallback */
+		color: #111827; /* dark fallback */
+	}
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}

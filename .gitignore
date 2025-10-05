@@ -1,0 +1,86 @@
+# =========================
+# 🌐 General
+# =========================
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos del IDE y configuración local
+.vscode/
+.idea/
+*.iml
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.swp
+
+# Entornos
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =========================
+# 🧩 FRONTEND (Astro / Node)
+# =========================
+frontend/node_modules/
+frontend/.astro/
+frontend/dist/
+frontend/.cache/
+frontend/.output/
+frontend/.vercel/
+frontend/.netlify/
+
+# Archivos de compilación o preview
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.nuxt/
+frontend/out/
+
+# Archivos de dependencias bloqueadas
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# =========================
+# ☕ BACKEND (Spring Boot / Java)
+# =========================
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Archivos de dependencias
+backend/dependency-reduced-pom.xml
+
+# Archivos de logs y builds
+backend/*.log
+backend/*.tmp
+backend/*.bak
+
+# Configuración local
+backend/.env
+backend/application-local.properties
+backend/application-test.properties
+
+# =========================
+# 🧪 Tests y Coverage
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# 🐘 Otros
+# =========================
+# Archivos comprimidos o binarios
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Archivos generados por el sistema operativo
+ehthumbs.db
+Icon?
