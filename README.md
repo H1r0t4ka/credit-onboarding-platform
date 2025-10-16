@@ -113,13 +113,9 @@ Este proyecto es desarrollado por el equipo de la simulación laboral de **NoCou
 La experiencia busca fomentar la **autogestión, colaboración y aprendizaje práctico** en un entorno de desarrollo realista.
 
 Front-End
-- Cristhian Brayan Jiménez Chapa
 - Juan Manuel Quevedo Gonzalez
-- Eri Jhampier Valladolid Cruzado
 
 Back-End
-- Fernando Bouchet
-- Matias LLanos
 - Tomas Agustin Colazo
 - Kevin Ramos
 
