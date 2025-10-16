@@ -1,0 +1,35 @@
+---
+import HowItWorksStep from './HowItWorksStep.astro';
+---
+
+<section class="py-16 sm:py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-extrabold text-[#111827] mb-2">
+            ¿Cómo funciona?
+        </h2>
+        <p class="text-lg text-[#111827] mb-12">
+            Un proceso simple y eficiente en tres pasos.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-8">
+            <HowItWorksStep 
+                stepNumber={1}
+                icon="file" 
+                title="1. Solicita en línea" 
+                description="Completa nuestro sencillo formulario de solicitud en minutos y desde cualquier dispositivo." 
+            />
+            <HowItWorksStep 
+                stepNumber={2}
+                icon="clock" 
+                title="2. Respuesta rápida" 
+                description="Nuestro sistema inteligente evalúa tu solicitud y te damos una respuesta en menos de 24 horas." 
+            />
+            <HowItWorksStep 
+                stepNumber={3}
+                icon="money" 
+                title="3. Recibe tus fondos" 
+                description="Una vez aprobado, el dinero se transfiere directamente a tu cuenta bancaria para que lo uses de inmediato." 
+            />
+        </div>
+    </div>
+</section>

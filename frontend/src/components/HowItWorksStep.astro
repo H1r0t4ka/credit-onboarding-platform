@@ -1,0 +1,59 @@
+---
+interface Props {
+    icon: string; // Una clase de icono o un simple nombre para el SVG
+    title: string;
+    description: string;
+    stepNumber: number;
+}
+
+const { icon, title, description, stepNumber } = Astro.props;
+---
+
+<div
+    class="flex-1 min-w-[280px] bg-white border border-gray-200 rounded-lg p-6 text-center shadow-lg transition duration-300 hover:shadow-xl"
+>
+    <div
+        class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#E8F1FB] text-[#1173D4] mb-4"
+    >
+        <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            {
+                icon === "file" ? (
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                ) : icon === "clock" ? (
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                ) : (
+                    // money
+                    <path
+                        d="M21.165 24C19.915 24 18.8525 23.5625 17.9775 22.6875C17.1025 21.8125 16.665 20.75 16.665 19.5C16.665 18.25 17.1025 17.1875 17.9775 16.3125C18.8525 15.4375 19.915 15 21.165 15C22.415 15 23.4775 15.4375 24.3525 16.3125C25.2275 17.1875 25.665 18.25 25.665 19.5C25.665 20.75 25.2275 21.8125 24.3525 22.6875C23.4775 23.5625 22.415 24 21.165 24ZM10.665 28.5C9.83998 28.5 9.13373 28.2062 8.54623 27.6187C7.95873 27.0312 7.66498 26.325 7.66498 25.5V13.5C7.66498 12.675 7.95873 11.9688 8.54623 11.3812C9.13373 10.7937 9.83998 10.5 10.665 10.5H31.665C32.49 10.5 33.1962 10.7937 33.7837 11.3812C34.3712 11.9688 34.665 12.675 34.665 13.5V25.5C34.665 26.325 34.3712 27.0312 33.7837 27.6187C33.1962 28.2062 32.49 28.5 31.665 28.5H10.665ZM13.665 25.5H28.665C28.665 24.675 28.9587 23.9688 29.5462 23.3812C30.1337 22.7937 30.84 22.5 31.665 22.5V16.5C30.84 16.5 30.1337 16.2062 29.5462 15.6187C28.9587 15.0312 28.665 14.325 28.665 13.5H13.665C13.665 14.325 13.3712 15.0312 12.7837 15.6187C12.1962 16.2062 11.49 16.5 10.665 16.5V22.5C11.49 22.5 12.1962 22.7937 12.7837 23.3812C13.3712 23.9688 13.665 24.675 13.665 25.5ZM30.165 34.5H4.66498C3.83998 34.5 3.13373 34.2063 2.54623 33.6187C1.95873 33.0312 1.66498 32.325 1.66498 31.5V15H4.66498V31.5H30.165V34.5Z"
+                        fill="#1173D4"
+                        transform="translate(-1.665) scale(0.727)"
+                    />
+                )
+            }
+        </svg>
+    </div>
+
+    <h3 class="text-xl font-bold text-gray-900 mb-2">
+        {title}
+    </h3>
+
+    <p class="text-[#111827]">
+        {description}
+    </p>
+</div>
